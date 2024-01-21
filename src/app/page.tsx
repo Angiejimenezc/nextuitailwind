@@ -1,4 +1,5 @@
-import Input from "../components/ui/input"
+import Input from '../components/ui/Input'
+
 
 export default function Example() {
   return (
@@ -30,7 +31,7 @@ export default function Example() {
                 Email address
               </label>
               <div className="mt-2">
-              <Input />
+              <Input placeholder="email@gmail.com"/>
               </div>
             </div>
 
@@ -46,14 +47,15 @@ export default function Example() {
                 </div>
               </div>
               <div className="mt-2">
-                <input
+               {/*  <input
                   id="password"
                   name="password"
                   type="password"
                   autoComplete="current-password"
                   required
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                />
+                /> */}
+                 <Input placeholder="*******" />
               </div>
             </div>
 
@@ -78,3 +80,5 @@ export default function Example() {
     </>
   )
 }
+
+//https://www.youtube.com/watch?v=GAcq61I9IVM
